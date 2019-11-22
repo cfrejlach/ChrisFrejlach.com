@@ -1,0 +1,47 @@
+<?php
+
+    
+$word = "ccupccake";
+    
+    
+//task 1 create a hash table 
+    
+$letterCount = [];
+    
+   
+ //task 2 split the characters into an array of characters 
+   
+ $wordarray = str_split($word);
+    
+  
+  //task 3 evaluate each character. 
+   
+ //  if the key already exists, add 1 to the value 
+  
+  //  if the key does not exist, add it to the hash table with value 1
+    foreach($wordarray as $char){
+       
+ if(array_key_exists($char, $letterCount)){
+      
+      $letterCount[$char]++;
+      
+  }
+       
+ else{
+          
+  $letterCount[$char] = 1;
+     
+   }
+   
+ }
+    
+    
+//task 4: display each key/value pair
+   
+ foreach($letterCount as $char => $count){
+       
+ print $char. " : ". $count. "\n";
+  
+  }
+
+?>

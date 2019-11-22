@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Assignment 6 exercise 1</title>
+  <script type="text/javascript" src="js/calculate_pace.js"></script>
+  <link rel="stylesheet" href="Css/ass6_1style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Runners Aide</h1>
+  <div class="box">
+    <span class="text">Calculate Pace:</span>
+    <div class="inputs">
+      <br>
+      <label for="distance">distance (in miles):</label>
+      <input type="number" name="distance" id="distance" min="0" placeholder= "0">
+      <br>
+      <label for="pace">Pace (min:sec):</label>
+      <input type="text" name="pace" id="pace" placeholder="00:00">
+      <br>
+      <button onclick="Calculate()">
+        Calculate
+      </button>
+    </div>
+  </div>
+  <table id="myTable">
+    <tr>
+      <th><p><b>Miles</b></p></th>
+      <th><p><b>Time</b></p></th>
+    </tr>
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+body{
+    background-color: dodgerblue;
+    font-family: Ariel;
+}
+
+h1{
+    text-align: center;
+    text-align: top;
+    font-weight: bold;
+    color: pink;
+}
+
+div{
+    background-color:darkgray;
+    border-radius: 50px;
+    padding: 25px;
+}
+
+table{
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tr th{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+table tr td{
+    padding-left: 25px;
+    padding-right: 25px;
+}

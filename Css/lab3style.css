@@ -1,0 +1,29 @@
+body{
+    margin: 10;
+}
+#content{
+    background-color: black;
+}
+
+h1{
+    font-size: 36px;
+    font-family: "Courier New";
+    font-weight: normal;
+    padding: 20px;
+    color: orange;
+}
+
+.row{
+    display: flex;
+    height: 50%;
+}
+p{
+    color: orange;
+    font-size: 24px;
+    font-family: "Courier New"
+}
+.image{
+    border: 2px;
+    border-color: orange;
+    margin: 10px;
+}

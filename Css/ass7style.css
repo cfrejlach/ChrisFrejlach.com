@@ -1,0 +1,12 @@
+.highlightedtext {
+    background-color: yellow;
+}
+
+.row {
+    width: 100%;
+}
+
+#givenText {
+    color: black;
+    background-color: yellow;
+}

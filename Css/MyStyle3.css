@@ -1,0 +1,76 @@
+
+.banner{
+    background-color: lightgray;
+    float left;
+    color:black;
+    width:108%
+}
+/*h1{
+    text-align: right;
+    font-family: helvetica;
+    font-size: 24px;
+    padding-right:20px; 
+    padding-bottom: 15px;
+}*/
+
+.subhead{
+    text-align: right;
+    font-family: helvetica;
+    font-size: 16px;
+    padding-right: 20px;
+}
+/*body{
+    background-color: black;
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+}*/
+.pic0{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.67%;}
+.col-3 {width: 25.00%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.67%;}
+.col-6 {width: 50.00%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.67%;}
+.col-9 {width: 75.00%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.67%;}
+.col-12 {width: 100.00%;}
+
+@media (max-width: 580px){
+    p{
+        background-color: lightblue;
+    }
+}
+
+.button {
+  background-color: lightgray; 
+    float:left;
+    border-color: white 2px;
+  color: black;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 14px;
+}
+

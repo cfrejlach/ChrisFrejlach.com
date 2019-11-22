@@ -1,0 +1,31 @@
+<?php
+
+    
+	$word = "cupcake";
+    
+    
+//reverse the characters using a stack
+    
+	$stack = [];
+    
+   
+//Task 1 split the characters into the array 
+   
+ 	$wordArr = str_split($word);
+    print $wordArr[2];
+    
+    
+//task 2 push each character into the stack 
+   
+ 	foreach($wordArr as $char){
+        
+	array_push($stack, $char);
+    }
+    
+  
+ //task 3 pop the stack and display each item popped 
+    
+	while($stack){
+        
+	print array_pop($stack);
+    }

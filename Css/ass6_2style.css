@@ -1,0 +1,9 @@
+table,
+tr {
+    align-content: center;
+
+}
+
+td {
+    cursor: pointer;
+}
